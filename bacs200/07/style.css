@@ -1,3 +1,12 @@
 h1 {
-    color:blue;
+    color: darkviolet;
+    background-color:azure;
+}
+li {
+    color:darkmagenta;
+
+}
+body {
+    background-color:floralwhite;
+    border: 1px solid blue;
 }

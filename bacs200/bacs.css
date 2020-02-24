@@ -1,1 +1,16 @@
+h1 {
+    color:darkred;
+    background-color: paleturquoise;
 
+}
+body {
+    background-color:aliceblue;
+     border: 2px solid gray;
+}
+
+a{
+    color: red;
+}
+li {
+    color:green;
+}
