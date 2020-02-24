@@ -2,9 +2,8 @@ h1 {
     color: darkviolet;
     background-color:azure;
 }
-li {
-    color:darkmagenta;
-
+a {
+    color:dimgrey;
 }
 body {
     background-color:floralwhite;
