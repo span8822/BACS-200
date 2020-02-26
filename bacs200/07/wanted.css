@@ -9,11 +9,10 @@ header {
     border: solid 3px black;
     background-color: white;
     text-align:center;
+    font-size:30px;
     border-radius: 25px;
-    font-size: 30px;
     width: 1000px;
-    margin-top:auto;
-    margin-left: 350px;
+    margin:auto;
     font-family: Lucida Console;
     height:200px
 }
@@ -33,7 +32,7 @@ main {
     margin-top:25px
 }
 
-h1 {
+main h1 {
     font-size: 65px;
     text-align: center;
     padding: 50px
