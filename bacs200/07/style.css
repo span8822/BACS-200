@@ -3,9 +3,12 @@ h1 {
     background-color:azure;
 }
 a {
-    color:dimgrey;
+    color:red;
 }
 body {
     background-color:floralwhite;
     border: 1px solid blue;
+}
+a:hover {
+    color:aqua;
 }

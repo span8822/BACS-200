@@ -1,0 +1,47 @@
+
+
+body {
+    border: solid 3px black;
+    background-color: black;
+}
+
+header {
+    border: solid 3px black;
+    background-color: white;
+    text-align:center;
+    border-radius: 25px;
+    font-size: 30px;
+    width: 1000px;
+    margin-top:auto;
+    margin-left: 350px;
+    font-family: Lucida Console;
+    height:200px
+}
+
+footer {
+    border: solid 3px green;
+    background-color: lightgreen;
+}
+
+main {
+    border: solid 3px black;
+    background-color: beige;
+    border-radius: 25px;
+    font-family: Lucida Console;
+    width: 1000px;
+    margin-left: 350px;
+    margin-top:25px
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    padding: 50px
+}
+
+aside {
+    border: solid 2px;
+    background-color: floralwhite;
+    margin:250px;
+    align-self: right;
+}
