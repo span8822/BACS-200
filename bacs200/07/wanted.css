@@ -13,14 +13,17 @@ header {
     border-radius: 25px;
     width: 1000px;
     margin:auto;
-    font-family: Lucida Console;
-    height:200px
+    font-family:cursive;
+    height:250px;
+
 }
 
 footer {
-    border: solid 3px green;
-    background-color: lightgreen;
+    border: solid 3px black;
+    background-color: black;
+    text-align: center;
 }
+a{ color:white;}
 
 main {
     border: solid 3px black;
@@ -28,19 +31,20 @@ main {
     border-radius: 25px;
     font-family: Lucida Console;
     width: 1000px;
-    margin-left: 350px;
+    margin-left: 440px;
     margin-top:25px
 }
 
 main h1 {
     font-size: 65px;
     text-align: center;
-    padding: 50px
+    padding: 50px;
+    font-family:cursive;
 }
 
 aside {
     border: solid 2px;
     background-color: floralwhite;
-    margin:250px;
-    align-self: right;
+    float:right;
+    padding-right: 300px;
 }
