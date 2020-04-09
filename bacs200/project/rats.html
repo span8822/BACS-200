@@ -2,107 +2,91 @@
 
 <head>
     <title>I really like Rats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+
     <style>
         html {
             background-image: url(images/rats/bedding.jpg)
         }
 
-        h1 {
-            color: black;
-            text-align: center;
-            border: 2px solid white;
-            background-color: aliceblue
-        }
-
-        p {
-            border: 1px solid white;
-            background-color: aliceblue;
-        }
-
-        div.gallery {
-            margin: 5px;
-            border: 1px solid aqua;
-            float: left;
-            width: 180px;
-        }
-
-        div.gallery img {
-            width: 100%;
-            height: "auto";
-        }
-
-        div.gallery:hover {
-            border: 3px solid white;
-        }
-
-
-        div.desc {
-            padding: 15px;
-            text-align: center;
-            float: right;
-        }
-
     </style>
-    <nav id="main-menu">
-        <link rel="stylesheet" href="../menu.css">
-        <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="mtg.html">Magic The Gathering</a></li>
-            <li><a href="#">?</a></li>
-            <li><a href="music.html">Musical Theatre</a></li>
-        </ul>
-    </nav>
+        <nav id="main-menu"><link rel="stylesheet"href="../menu.css"><ul><li><a href="index.html">Home Page</a></li><li><a href="mtg.html">Magic The Gathering</a></li><li><a href="#">?</a></li><li><a href="music.html">Musical Theatre</a></li></ul></nav>
+
 </head>
+
 <h1>I Think Rats Are the Cutest and Now You Must As Well</h1>
 
 <body>
     <p>No but seriously, I have two rats and you're going to see them as well as some funny pictures of rats. </p>
-    <div class="gallery">
-        <a target="_blank" href="images/rats/pasta.jpg">
-            <img src="images/rats/pasta.jpg" alt="pasta" width="400">
-        </a>
+    <div class="container">
+        <h2>Examples</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/rats/pasta.jpg" alt="Pasta" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="images/rats/ratthew.jpeg" alt="Ratthew" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="images/rats/thanos.jpg" alt="thanos" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="images/rats/roumdchonk.jpg" alt="Roumd" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="images/rats/smooch.jpg" alt="smooch" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="images/rats/snuggleboy.jpg" alt="Snuggle" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p>This is Whiskey</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <img src="images/rats/sploot.jpg" alt="Cabbie" style="width:100%;">
+                    <div class="carousel-caption">
+                        <p>This is Cabernet</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
 
-    <div class="gallery">
-        <a target="_blank" href="images/rats/ratthew.jpeg">
-            <img src="images/rats/ratthew.jpeg" alt="ratthew" width="300">
-        </a>
 
-    </div>
 
-    <div class="gallery">
-        <a target="_blank" href="images/rats/roumdchonk.jpg">
-            <img src="images/rats/roumdchonk.jpg" alt="roumd" width="500">
-        </a>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="images/rats/smooch.jpg">
-            <img src="images/rats/smooch.jpg" alt="smooches">
-        </a>
-
-    </div>
-    <div class="gallery">
-        <a target="_blank" href="images/rats/thanos.jpg">
-            <img src="images/rats/thanos.jpg" alt="thanos rat">
-        </a>
-    </div>
-    <div class="gallery">
-        <a target="_blank" href="images/rats/snuggleboy.jpg">
-            <img src="images/rats/snuggleboy.jpg" alt="whiskey">
-        </a>
-        <p>This is Whiskey</p>
-    </div>
-    <div class="gallery">
-        <a target="_blank" href="images/rats/sploot.jpg">
-            <img src="images/rats/sploot.jpg" alt="cabbie sploot">
-        </a>
-        <p>This is Cabernet</p>
-
-    </div>
     <div class="desc">
         <p>Rats are honestly some of the smartest and most loving creatures to exist. They're also less in your face than dogs and actually show you they care about you, unlike cats.</p>
 
     </div>
-</body>
+</body></html>
