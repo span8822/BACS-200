@@ -3,8 +3,13 @@ I want my pages to show who I am as a person. I want to show that I'm not a coll
 
 
 My Fancy Tricks Are:
+
 Picture carousel on rats.html
+
 Dark mode toggle on music.html
+
 Animated button on cAh.html
+
 Text when hovering over picture on fancytricks.html
+
 Typewriter effect at bottom of fancytricks.html
