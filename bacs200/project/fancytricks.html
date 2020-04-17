@@ -49,6 +49,7 @@
         .video {
             margin-left: 475px;
         }
+
         .infotext {
             font-family: serif;
             font-size: 20px;
@@ -56,7 +57,16 @@
 
     </style>
 </head>
-
+<nav id="main-menu">
+    <link rel="stylesheet" href="../menu.css">
+    <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="mtg.html">Magic The Gathering</a></li>
+        <li><a href="rats.html">Rat Memes</a></li>
+        <li><a href="music.html">Musicians that I Like</a></li>
+        <li><a href="cAh.html">?</a></li>
+    </ul>
+</nav>
 <body>
     <h1>Let's Learn About Face Masks</h1>
     <hr>
@@ -69,10 +79,32 @@
             <div class="text">Example of a Facemask</div>
         </div>
     </div>
-    <div class="infotext">
-        <p>Facemasks are currently suggested (by Gov. Polis) to be work out in public. Although you wearing one cannot completely save you from getting the virus, it is still better than walking around barefaced.</p>
-    </div>
+
+    <h2>Facemasks are currently suggested (by Gov. Polis) to be work out in public. Although you wearing one cannot completely save you from getting the virus, it is still better than walking around barefaced.</h2>
+
     <div class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/CpbJFk311Lw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <button onclick="typeWriter()">Click me</button>
+
+    <p id="demo"></p>
+
+    <script>
+        var i = 0;
+        var txt = 'Face Masks are very common in Asian countries such as Japan and China. With such a densely packed population, it is very easy for others to get sick. wearing face masks lessens their chances of getting sick';
+        var speed = 50;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+    </script>
+    <h2>How to Make a Mask!</h2>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oPYp-kjiqtw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </body>
